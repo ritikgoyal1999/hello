@@ -1,0 +1,246 @@
+:root {
+    font-family: EB Garamond, serif;
+    background-color: #F7F7F7;
+    color: black;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+ul {
+    list-style: none;
+}
+
+.search {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 6px;
+}
+
+.home {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/background.jpeg);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+
+}
+
+.home p {
+    font-size: 5vmin;
+}
+
+.home-content {
+    margin: 10px 0px 10px 20px;
+}
+
+.home #delivery {
+    font-size: 7vmin;
+
+}
+
+
+.home-navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 21px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: large;
+}
+
+#shopnow {
+    color: white;
+    background: rgb(120, 17, 17);
+    margin-top: 20px;
+    margin-bottom: 200px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#shopnow:hover {
+    background-color: rgb(229, 81, 81);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 21px;
+    background-color: rgb(168, 23, 23);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: large;
+
+}
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+
+
+
+}
+
+.nav-links li {
+
+    margin: 0 30px;
+
+
+}
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    letter-spacing: 2px;
+
+    font-weight: bold;
+
+
+
+    padding: 18px 20px;
+
+}
+
+.nav-links a:hover:not(.active) {
+
+    background-color: rgb(229, 81, 81);
+
+}
+
+
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.header-content {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+#about {
+    font-size: 70px;
+}
+
+#services {
+    font-size: 50px;
+
+}
+
+#contact {
+    font-size: 50px;
+}
+
+.line {
+    width: 70px;
+    height: 4px;
+    background: black;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#line-text {
+    color: rgb(120, 17, 17);
+    font-size: xx-large;
+    background-color: #F7F7F7;
+    display: inline;
+}
+
+
+img {
+    float: left;
+    margin: 5px;
+    max-width: 500px;
+    border-radius: 8%;
+
+}
+
+.about-text p {
+
+    padding: 15px;
+
+
+}
+
+.about-text h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    list-style: circle;
+}
+
+.login {
+    width: 500px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+#log {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(120, 17, 17);
+}
+
+#Pass {
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+
+}
+
+.box {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    text-align: center;
+}
+
+.box :first-child {
+    align-self: center;
+}
